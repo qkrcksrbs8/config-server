@@ -1,0 +1,9 @@
+server:
+  port: 9100
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/qkrcksrbs8/project-config
